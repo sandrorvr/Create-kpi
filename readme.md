@@ -1,21 +1,21 @@
-__* Descricao *__:
+__*Descricao*__:
     Estrutura de testes e deploy de kpis utilizando pyspark
 
-__* Modo de uso *__:
+__*Modo de uso*__:
     1. Crie as classes filhas de KPI
     2. Crie uma classe filha de phase.Phase
     3. Sobrescreva os metodos getDataFrame(), preprocess(), runKpis()
 
 
 
-__* Classes *__:
+__*Classes*__:
     *KPI > classe abstrata para criar kpis
     *Phase >  Classe abstrata desenvolver as interacões entre os kpis
     *SaveDF > Classe concreta usada para savar um SparkDataFrame
     *StepsLoad > Classe concretar usada para definir o numero de interacões afim de concluir um grande volume de dados
 
 
-__* KPI *__:
+__*KPI*__:
     ##KPI(df, titleKPI, columnsId=None, columnsUsed=None)
     
         df : [SparkDataFrame] -> DataFrame base para a criacão do kpi
@@ -42,7 +42,7 @@ __* KPI *__:
 
     return SparkDataFrame
 
-__* Phase *__:
+__*Phase*__:
     ##Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, db='test', collection='test')
 
         phaseTitle : [ str ] -> titulo da fase
