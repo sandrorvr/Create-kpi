@@ -16,7 +16,7 @@ __*Classes*__:<br>
 
 
 __*KPI*__:<br>
-    <h2>KPI(df, titleKPI, columnsId=None, columnsUsed=None)<\h2>
+<h2>KPI(df, titleKPI, columnsId=None, columnsUsed=None)<h2>
     
         df : [SparkDataFrame] -> DataFrame base para a criacão do kpi
 
