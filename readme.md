@@ -9,10 +9,10 @@ __*Modo de uso*__:<br>
 
 
 __*Classes*__:<br>
-*KPI > classe abstrata para criar kpis<br>
-*Phase >  Classe abstrata desenvolver as interacões entre os kpis<br>
-*SaveDF > Classe concreta usada para savar um SparkDataFrame<br>
-*StepsLoad > Classe concretar usada para definir o numero de interacões afim de concluir um grande volume de dados<br>
+* KPI > classe abstrata para criar kpis<br>
+* Phase >  Classe abstrata desenvolver as interacões entre os kpis<br>
+* SaveDF > Classe concreta usada para savar um SparkDataFrame<br>
+* StepsLoad > Classe concretar usada para definir o numero de interacões afim de concluir um grande volume de dados<br>
 
 
 __*KPI*__:<br>
