@@ -82,7 +82,7 @@ Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, d
 
 
 __*Exemplo:*__:
-```
+python```
 import pyspark.sql.functions as f
 
 class Kpi1(KPI):
