@@ -15,8 +15,8 @@ __*Classes*__:<br>
     *StepsLoad > Classe concretar usada para definir o numero de interacões afim de concluir um grande volume de dados
 
 
-__*KPI*__:
-    ##KPI(df, titleKPI, columnsId=None, columnsUsed=None)
+__*KPI*__:<br>
+    ## KPI(df, titleKPI, columnsId=None, columnsUsed=None)
     
         df : [SparkDataFrame] -> DataFrame base para a criacão do kpi
 
@@ -42,8 +42,8 @@ __*KPI*__:
 
     return SparkDataFrame
 
-__*Phase*__:
-    ##Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, db='test', collection='test')
+__*Phase*__:<br>
+    ## Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, db='test', collection='test')
 
         phaseTitle : [ str ] -> titulo da fase
 
