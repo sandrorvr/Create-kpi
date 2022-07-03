@@ -16,7 +16,7 @@ __*Classes*__:<br>
 
 
 __*KPI*__:<br>
-    ## KPI(df, titleKPI, columnsId=None, columnsUsed=None) <h2>
+    <h2>KPI(df, titleKPI, columnsId=None, columnsUsed=None) 
     
         df : [SparkDataFrame] -> DataFrame base para a criacão do kpi
 
@@ -43,7 +43,7 @@ __*KPI*__:<br>
     return SparkDataFrame
 
 __*Phase*__:<br>
-    ## Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, db='test', collection='test')
+    <h2>Phase(phaseTitle, mode, formatType='parquet', start=None, end=None, path=None, db='test', collection='test')
 
         phaseTitle : [ str ] -> titulo da fase
 
