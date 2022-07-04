@@ -1,3 +1,4 @@
+from tests import BoxTest
 from stepsLoad import StepsLoad
 from abc import ABC, abstractclassmethod
 
@@ -16,6 +17,7 @@ class Phase(ABC):
     self.tx = tx,
     self.step = step
     self.sep = sep
+    self.tests = []
   
   def setMode(self, mode):
     if mode == 'load':
@@ -34,7 +36,7 @@ class Phase(ABC):
         self.step,
         self.sep).loop(self.getDataFrame, self.preprocess, self.runKpis)
     elif mode == 'test':
-      pass
+      return BoxTest(self.tests).runTests().getLogTest()
     else:
       raise ValueError('usage mode not found')
 

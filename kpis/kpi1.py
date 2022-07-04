@@ -1,5 +1,4 @@
 from lib.kpi import KPI
-
 import pyspark.sql.functions as f
 
 class Kpi1(KPI):
